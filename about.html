@@ -10,14 +10,15 @@
 
 <Body>
 
-    
+
     <div class=column>
     <p>My name is Hae Hwan Cha. Call me Hwan!</p>
     <br/>
-    <span id=face><img src= "HAEHWANCHA.jpg"></span>
+    <span id=face><img onmouseover="mOver(this)"  onmouseout="mOut(this)" src= "HAEHWANCHA.jpg"></span>
     </div>
     <br/>
     <div class=column>
+    <button onclick="alert_button('HI!')"> GREETINGS! </button>
     <p>Let me introduce myself..</p>
     <p>I am 33 old. </p>
     <p>I majored Education in Yonsei University in South Korea.</p>
@@ -25,7 +26,7 @@
     </div>
     <div class=column></div>
     <ul>
-        <h3>My favorite subjects in school was..</h3>
+        <h3 onmouseover="mOverh(this)"  onmouseout="mOuth(this)" >My favorite subjects in school was..</h3>
         <li>Molecular biology</li>
         <li>Calculus</li>
         <li>Game Theory</li>
@@ -33,7 +34,7 @@
         <li>Introduce of Computer Programming</li>
     </ul>
     <ol>
-        <h3>My Top 5 books in my life is..</h3>
+        <h3 onmouseover="mOverh(this)"  onmouseout="mOuth(this)" >My Top 5 books in my life is..</h3>
         <li>The Prince</li>
         <li>Order Out of Choas</li>
         <li>L'ultime Secret</li>
@@ -71,5 +72,6 @@
             </tbody>
         </table>
     </div>
+    <script type="text/javascript" src="script.js"></script> 
 </Body>
 </HTML>
