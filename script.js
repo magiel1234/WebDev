@@ -15,21 +15,21 @@ function imageClicked(event){
 	event.stopPropagation();     // IMPORTANT!! STOPPING BUBBLING AND CAPTURING EITHER.
 	if(target.classList.contains("expanded")){
 		target.classList.remove("expanded");
-        target.width = 500;
+        target.width = 100;
 	}
 	else {
 		target.classList.add("expanded");
-        target.width = 600;
+        target.width = 200;
 	}
 }
 
 
 function mOver(obj) {
-    obj.width = 600;
+    obj.width = 350;
 }
 
 function mOut(obj) {
-    obj.width = 500;
+    obj.width = 250;
 }
 
 
