@@ -1,0 +1,49 @@
+div { background-color: white;}
+p { background-color: white; }
+li {font-size: 16px;}
+ol li {font-family : Courier;}
+ul li {font-family : Arial;}
+
+div.column {
+
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#face{
+    padding: 1px;
+    margin:4vw;
+    width: 40vw;
+    height: 40vw;
+}
+
+
+p,li {
+    padding: 2px;
+    margin:0vw;
+    transition-property : width;
+    transition-duration: 2s;
+    width: 500px;
+}
+
+p:hover{
+  background: rgba(203, 109, 226, 0.6);
+  display: block;
+  width : 600px;
+
+}
+
+li:hover{
+    background: rgba(203, 109, 226, 0.6);
+    display: block;
+    width : 600px;
+}
+
+
+
+td:hover{
+    font-weight: 900;
+}
