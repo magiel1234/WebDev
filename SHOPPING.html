@@ -1,0 +1,92 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="styles.css" />
+            <title>Shopping Webpage</title>
+    </head>
+
+    <body>
+            <div class="box">
+                <h2>Shopping List</h2>
+                <p class="pprice">Price </p>|| <p class="recent">Recent</p> || <p class="popular"></p>Popular</p>
+            </div>
+            <br><br><br><br>
+
+            
+            <div class="box2">
+                <ul class="items">
+                    <li><img src="asset/120W UV LED 47.59.jpg"></li>
+                    <li class="itemname">120W UV LED 120W UV LED 120W UV LED 120W UV LED 120W UV LED</li>
+                    <li class="price">$3.00</li>
+                    <button onclick="additem(1)"class="add" type="button">
+                    Add to list
+                    </button>
+                    <button onclick="removeitem(1)" class="remove" type="button">
+                    Remove from list
+                    </button>
+                </ul>
+                <ul class="items">
+                    <li><img src="asset/MEXICAN TACO MAKER.jpg"></li>
+                    <li class="itemname">Mexican Taco Maker</li>
+                    <li class="price">$1.00</li>
+                    <button onclick="additem(2)"class="add" type="button">
+                        Add to list
+                    </button>
+                    <button onclick="removeitem(2)" class="remove" type="button">
+                        Remove from list
+                    </button>
+                </ul>
+                <ul class="items">
+                    <li><img src="asset/MOSCOW MULE MUGS 27.99.jpg"></li>
+                    <li class="itemname">Moscow Mule Mugs</li>
+                    <li class="price">$2.00</li>
+                    <button onclick="additem(3)"class="add" type="button">
+                        Add to list
+                    </button>
+                    <button onclick="removeitem(3)" class="remove" type="button">
+                        Remove from list
+                    </button>
+                </ul>
+                <ul class="items">
+                    <li><img src="asset/P1.jpg"></li>
+                    <li class="itemname">Dryer</li>
+                    <li class="price">$4.00</li>
+                    <button onclick="additem(4)"class="add" type="button">
+                        Add to list
+                    </button>
+                    <button onclick="removeitem(4)" class="remove" type="button">
+                        Remove from list
+                    </button>
+                </ul>
+                <ul class="items">
+                    <li><img src="asset/WEIGHTED BLANKET 79.99.jpg"></li>
+                    <li class="itemname">Weighted Blanket</li>
+                    <li class="price">$5.00</li>
+                    <button onclick="additem(5)"class="add" type="button">
+                        Add to list
+                    </button>
+                    <button onclick="removeitem(5)" class="remove" type="button">
+                        Remove from list
+                    </button>
+                </ul>
+                
+            </div>
+
+            <div class="cartandcheckout">
+                <select id="cartlist" class="cartlist" name='cartlist' size='6'>
+                    <option value='1'>--Your Cart List--</option>
+                    <option value='2'></option>
+                    <option value='3'></option>
+                    <option value='4'></option>
+                    <option value='5'></option>
+                    <option value='6'></option>
+                    <option value='7'></option>
+                </select>
+                <br><br>
+                <button onclick="checkout()" class="checkout" type="button" >
+                    checkout
+                </button>
+            </div>
+
+            <script type="text/javascript" src="script.js"></script> 
+    </body>
+</html>

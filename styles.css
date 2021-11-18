@@ -1,8 +1,26 @@
-div { background-color: white;}
-p { background-color: white; }
 li {font-size: 16px;}
 ol li {font-family : Courier;}
 ul li {font-family : Arial;}
+
+
+
+.box{
+    padding : 30px;
+}
+
+.box h2{
+    float:left;
+    margin-left : 550px;
+}
+.box p{
+    float:right;
+    padding : 50px;
+}
+
+.box2{
+    padding : 50px;
+}
+
 
 div.column {
 
@@ -21,7 +39,7 @@ table, td, th {
 }
 
 
-p,li {
+.about p,li {
     padding: 2px;
     margin:0vw;
     transition-property : width;
@@ -29,14 +47,20 @@ p,li {
     width: 500px;
 }
 
-p:hover{
+p{
+    padding: 2px;
+    margin:0vw;
+    width: 500px;
+}
+
+.about p:hover{
   background: rgba(203, 109, 226, 0.6);
   display: block;
   width : 600px;
 
 }
 
-li:hover{
+.about li:hover{
     background: rgba(203, 109, 226, 0.6);
     display: block;
     width : 600px;
@@ -46,4 +70,45 @@ li:hover{
 
 td:hover{
     font-weight: 900;
+}
+
+.items {
+    list-style:none;
+    padding-left:0px;
+    width:232px;
+    float:left;
+    margin : 30px 10px 0 0;
+}
+
+.itemname{
+    font-weight: bold;
+    margin-top: 5px;
+    color:black;
+    width:232px;
+    float:left;
+}
+
+.price{
+    font-weight: bold;
+    margin-top: 5px;
+    color:black;
+    width:232px;
+    float:left;
+}
+
+.cartandcheckout{
+    float:right;
+    margin-right: 90px;
+}
+
+.pprice{
+    display:block;
+}
+
+.recent{
+    display:block;
+}
+
+.popular{
+    display:block;
 }
