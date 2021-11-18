@@ -10,11 +10,11 @@ ul li {font-family : Arial;}
 
 .box h2{
     float:left;
-    margin-left : 550px;
+    margin-left : 600px;
 }
 .box p{
     float:right;
-    padding : 50px;
+    padding : 40px 0 0 0;
 }
 
 .box2{
