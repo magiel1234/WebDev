@@ -5,16 +5,14 @@ ul li {font-family : Arial;}
 
 
 .box{
-    padding : 30px;
+    padding:30px;
 }
 
 .box h2{
-    float:left;
-    margin-left : 600px;
+    text-align: center;
 }
 .box p{
     float:right;
-    padding : 40px 0 0 0;
 }
 
 .box2{
@@ -102,4 +100,9 @@ td:hover{
 }
 
 .goback{
+}
+
+#cartlist
+{
+    width:160px;
 }
